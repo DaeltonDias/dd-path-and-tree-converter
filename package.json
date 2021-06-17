@@ -1,0 +1,25 @@
+{
+  "name": "dd-path-and-tree-converter",
+  "version": "1.0.0",
+  "description": "Convert path to tree and tree to path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaeltonDias/dd-path-and-tree-converter.git"
+  },
+  "keywords": [
+    "Paths",
+    "Path",
+    "Tree"
+  ],
+  "author": "Daelton Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaeltonDias/dd-path-and-tree-converter/issues"
+  },
+  "homepage": "https://github.com/DaeltonDias/dd-path-and-tree-converter#readme"
+}
+

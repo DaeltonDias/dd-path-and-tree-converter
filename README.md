@@ -9,10 +9,10 @@ $ npm install dd-path-and-tree-converter
 ### Use
 ```javascript
 // CommonJS
-const { pathToTree } = require('dd-path-and-tree-converter');
+const { pathToTree, treeToPath } = require('dd-path-and-tree-converter');
 
 // ES6
-import { pathToTree } from 'dd-path-and-tree-converter';
+import { pathToTree, treeToPath } from 'dd-path-and-tree-converter';
 ```
 
 ```javascript

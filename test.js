@@ -41,10 +41,12 @@ const pathToTreeTest = () => {
   //         type: 'folder',
   //         children: [
   //           {
+  //             path: 'src/lib/git.js',
   //             name: 'git.js',
   //             type: 'file'
   //           },
   //           {
+  //             path: 'src/lib/server.js',
   //             name: 'server.js',
   //             type: 'file'
   //           }
@@ -57,12 +59,14 @@ const pathToTreeTest = () => {
   //     type: 'folder',
   //     children: [
   //       {
+  //         path: 'externs/jquery.js',
   //         name: 'jquery.js',
   //         type: 'file'
   //       }
   //     ]
   //   },
   //   {
+  //     path: 'index.js',
   //     name: 'index.js',
   //     type: 'file'
   //   }
@@ -93,6 +97,7 @@ const pathToTreeTest = () => {
   //         type: 'folder',
   //         children: [
   //           {
+  //             path: 'src/lib/server.js',
   //             name: 'server.js',
   //             type: 'file'
   //           }
@@ -133,10 +138,12 @@ const treeToPathTest = () => {
           type: 'folder',
           children: [
             {
+              path: 'src/lib/git.js',
               name: 'git.js',
               type: 'file'
             },
             {
+              path: 'src/lib/server.js',
               name: 'server.js',
               type: 'file'
             }
@@ -149,12 +156,14 @@ const treeToPathTest = () => {
       type: 'folder',
       children: [
         {
+          path: 'externs/jquery.js',
           name: 'jquery.js',
           type: 'file'
         }
       ]
     },
     {
+      path: 'index.js',
       name: 'index.js',
       type: 'file'
     }

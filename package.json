@@ -1,6 +1,6 @@
 {
   "name": "dd-path-and-tree-converter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Convert path to tree and tree to path.",
   "main": "index.js",
   "scripts": {

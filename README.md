@@ -51,10 +51,12 @@ console.log(tree_2);
 //         type: 'folder',
 //         children: [
 //           {
+//             path: 'src/lib/git.js',
 //             name: 'git.js',
 //             type: 'file'
 //           },
 //           {
+//             path: 'src/lib/server.js',
 //             name: 'server.js',
 //             type: 'file'
 //           }
@@ -67,12 +69,14 @@ console.log(tree_2);
 //     type: 'folder',
 //     children: [
 //       {
+//         path: 'externs/jquery.js',
 //         name: 'jquery.js',
 //         type: 'file'
 //       }
 //     ]
 //   },
 //   {
+//     path: 'index.js',
 //     name: 'index.js',
 //     type: 'file'
 //   }
@@ -105,6 +109,7 @@ console.log(tree_2);
 //         type: 'folder',
 //         children: [
 //           {
+//             path: 'src/lib/server.js',
 //             name: 'server.js',
 //             type: 'file'
 //           }
@@ -153,10 +158,12 @@ const tree = [
         type: 'folder',
         children: [
           {
+            path: 'src/lib/git.js',
             name: 'git.js',
             type: 'file'
           },
           {
+            path: 'src/lib/server.js',
             name: 'server.js',
             type: 'file'
           }
@@ -169,12 +176,14 @@ const tree = [
     type: 'folder',
     children: [
       {
+        path: 'externs/jquery.js',
         name: 'jquery.js',
         type: 'file'
       }
     ]
   },
   {
+    path: 'index.js',
     name: 'index.js',
     type: 'file'
   }

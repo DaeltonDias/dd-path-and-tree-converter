@@ -32,6 +32,7 @@ const tree2 = (paths) => {
         let item = { name }; r[name] = {tree: []};
         item.type = i === filePath.length - 1 ? 'file' : 'folder';
         if (item.type === 'folder') item.children = r[name].tree;
+        if (item.type === 'file') item.path = path;
         r.tree.push(item);
       }
       return r[name];
